@@ -1,0 +1,12 @@
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.csproj.AssemblyReference.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.AssemblyInfoInputs.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.AssemblyInfo.cs
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.csproj.CoreCompileInputs.cache
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\bin\Debug\net6.0\IdentityServer.Domain.deps.json
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\bin\Debug\net6.0\IdentityServer.Domain.dll
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\bin\Debug\net6.0\IdentityServer.Domain.pdb
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.dll
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\refint\IdentityServer.Domain.dll
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\IdentityServer.Domain.pdb
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Domain\obj\Debug\net6.0\ref\IdentityServer.Domain.dll

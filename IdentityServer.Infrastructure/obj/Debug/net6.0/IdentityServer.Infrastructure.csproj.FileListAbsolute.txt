@@ -1,0 +1,17 @@
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Infrastructure.deps.json
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Infrastructure.runtimeconfig.json
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Infrastructure.dll
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Infrastructure.pdb
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.AssemblyInfo.cs
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.dll
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\refint\IdentityServer.Infrastructure.dll
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.pdb
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.genruntimeconfig.cache
+C:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\ref\IdentityServer.Infrastructure.dll
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Domain.dll
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\bin\Debug\net6.0\IdentityServer.Domain.pdb
+c:\Users\mnia\dev\personal-projects\linky-store\src\Services\IdentityServer\IdentityServer.Infrastructure\obj\Debug\net6.0\IdentityServer.Infrastructure.csproj.CopyComplete

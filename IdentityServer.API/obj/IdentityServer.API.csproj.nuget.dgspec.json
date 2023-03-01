@@ -1,0 +1,256 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
+        "projectName": "IdentityServer.API",
+        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
+        "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
+              },
+              "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "projectName": "IdentityServer.Domain",
+        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+        "projectName": "IdentityServer.Infrastructure",
+        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mnia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.27.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

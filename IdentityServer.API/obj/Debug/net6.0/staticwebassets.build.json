@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JYfaabs+mBeGCubXQHego4o9qfCLwRApv3EI1zSkTQc=",
+  "Source": "IdentityServer.API",
+  "BasePath": "_content/IdentityServer.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
