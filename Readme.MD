@@ -1,5 +1,7 @@
 # **API de Autenticação e JWT Tokens**
 
+API de autenticação de usuários desenvolvida em .NET 6 utilizando JWT token. Com esta API, os usuários poderão se cadastrar, fazer login e acessar rotas protegidas que exigem autenticação. A API é segura e confiável, protegendo os dados dos usuários e garantindo que somente usuários autorizados tenham acesso aos recursos da API. Além disso, o projeto foi desenvolvido seguindo as melhores práticas do mercado, como injeção de dependência, separação de responsabilidades e utilização de padrões de design.
+
 ## **Introdução**
 
 A autenticação é um dos aspectos mais importantes da segurança de um aplicativo ou sistema. Sem autenticação adequada, qualquer pessoa pode acessar informações confidenciais e realizar ações que não deveria. Uma forma comum de implementar a autenticação em aplicativos modernos é usando tokens JWT.
