@@ -9,13 +9,13 @@ public class AuthRepository : BaseRepository<User, ApplicationDbContext>, IAuthR
     public AuthRepository(ApplicationDbContext context) : base(context) { }
     public override async Task Create(User entity)
     {
-        entity.RoleId = 1; // default add user in user role.
         await _context.Set<User>().AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async Task<Role> GetRole(long roleId)
+    public async Task<UserRole> GetRole()
     {
-        return await _context.Set<Role>().Where(i => i.Id == roleId).FirstOrDefaultAsync();
+        var user = await _context.Set<User>().Include(i => i.UserRoles).ThenInclude(i => i.Role).FirstOrDefaultAsync();
+        return user.UserRoles.FirstOrDefault(x => x.UserId == user.Id);
     }
 }

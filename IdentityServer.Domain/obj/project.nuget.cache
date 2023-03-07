@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PkQOZeDSh9dUGSjejJ+hsXx+tEMUfAEBI43ByDo8gv+d6FmZx5a7Bcql5lrYuFuRQixca2ezsWPUj5ZwR5oI8Q==",
+  "dgSpecHash": "HrmV9d3+2ZFVhiteGm2qoIj1V/g+uEJs00R/+1YjO1fXLYl+fC3ydIxQehOZJdSbYYcVdYgKI85OhaaFfmUEVA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+  "projectFilePath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

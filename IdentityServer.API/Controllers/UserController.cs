@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace IdentityServer.API.Controllers;
 
-
 [ApiController]
 [Route("api/v1/[controller]")]
 public class UserController : ControllerBase

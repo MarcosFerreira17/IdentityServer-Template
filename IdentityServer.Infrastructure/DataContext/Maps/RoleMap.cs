@@ -12,6 +12,6 @@ public class RoleMap : IEntityTypeConfiguration<Role>
         builder.HasKey(p => p.Id);
         builder.Property(p => p.Description).IsRequired();
         builder.Property(p => p.Name).IsRequired();
-        builder.HasMany(p => p.Users).WithOne(p => p.Role).HasForeignKey(p => p.RoleId);
+        builder.HasMany(p => p.UserRoles).WithOne(p => p.Role).HasForeignKey(p => p.RoleId);
     }
 }

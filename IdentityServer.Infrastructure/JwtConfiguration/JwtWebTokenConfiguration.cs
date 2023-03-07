@@ -23,11 +23,11 @@ public class JwtWebTokenConfiguration
 
     private List<Claim> GenerateClaims(User user)
     {
-        var role = _authRepository.GetRole(user.RoleId);
+        var role = _authRepository.GetRole();
         return new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Username),
-            new Claim(ClaimTypes.Role, role.Result.Name),
+            new Claim(ClaimTypes.Role, role.Result.Role.Name),
         };
     }
     public string CreateToken(User user)

@@ -1533,11 +1533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
       "projectName": "IdentityServer.Infrastructure",
-      "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1555,8 +1555,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
-              "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\linky-store\\src\\Services\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
+            "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+              "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
             }
           }
         }

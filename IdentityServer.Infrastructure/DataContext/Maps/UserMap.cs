@@ -16,7 +16,7 @@ public class UserMap : IEntityTypeConfiguration<User>
         builder.HasKey(p => p.Id);
         builder.Property(p => p.PasswordHash).IsRequired();
         builder.Property(p => p.PasswordSalt).IsRequired();
-        builder.Property(p => p.RoleId).IsRequired();
-        builder.HasOne(p => p.Role).WithMany(p => p.Users).HasForeignKey(p => p.RoleId);
+        builder.Property(p => p.Username).IsRequired();
+        builder.HasMany(p => p.UserRoles).WithOne(p => p.User).HasForeignKey(p => p.UserId);
     }
 }
