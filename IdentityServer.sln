@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Domain", "Id
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.Infrastructure", "IdentityServer.Infrastructure\IdentityServer.Infrastructure.csproj", "{610FE09D-026D-4A4E-9BDA-A5B644B5E861}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer.UnitTests", "IdentityServer.UnitTests\IdentityServer.UnitTests.csproj", "{1FBC5C8D-7DCD-41DB-8699-9BF18AE19098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{610FE09D-026D-4A4E-9BDA-A5B644B5E861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{610FE09D-026D-4A4E-9BDA-A5B644B5E861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{610FE09D-026D-4A4E-9BDA-A5B644B5E861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBC5C8D-7DCD-41DB-8699-9BF18AE19098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBC5C8D-7DCD-41DB-8699-9BF18AE19098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBC5C8D-7DCD-41DB-8699-9BF18AE19098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBC5C8D-7DCD-41DB-8699-9BF18AE19098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
