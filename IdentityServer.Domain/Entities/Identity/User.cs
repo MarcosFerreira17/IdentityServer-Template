@@ -30,7 +30,6 @@ public class User : EntityBase<long>
     public string ProfilePictureUrl { get; private set; }
     public long RoleId { get; private set; }
     public Role Role { get; private set; }
-    public IEnumerable<Address> Addresses { get; private set; }
 
     public void CreatePasswordHash(string password)
     {

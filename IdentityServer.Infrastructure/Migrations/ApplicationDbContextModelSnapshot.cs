@@ -19,43 +19,6 @@ namespace IdentityServer.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "6.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Address", b =>
-                {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("City")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Complement")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Neighborhood")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Number")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("State")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Street")
-                        .HasColumnType("longtext");
-
-                    b.Property<long>("UserId")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("ZipCode")
-                        .HasColumnType("longtext");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Addresses");
-                });
-
             modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Role", b =>
                 {
                     b.Property<long>("Id")
@@ -121,17 +84,6 @@ namespace IdentityServer.Infrastructure.Migrations
                     b.ToTable("Users", (string)null);
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Address", b =>
-                {
-                    b.HasOne("IdentityServer.Domain.Entities.Identity.User", "User")
-                        .WithMany("Addresses")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.User", b =>
                 {
                     b.HasOne("IdentityServer.Domain.Entities.Identity.Role", "Role")
@@ -141,11 +93,6 @@ namespace IdentityServer.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
-                });
-
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.User", b =>
-                {
-                    b.Navigation("Addresses");
                 });
 #pragma warning restore 612, 618
         }

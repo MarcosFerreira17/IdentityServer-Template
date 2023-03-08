@@ -9,6 +9,4 @@ public class UserDetailsDto
     public string Bio { get; set; }
     public DateTime? Birthdate { get; set; }
     public string ProfilePictureUrl { get; set; }
-    public IEnumerable<AddressDto> Addresses { get; set; }
-
 }
