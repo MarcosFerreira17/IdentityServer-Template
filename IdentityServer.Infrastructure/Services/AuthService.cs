@@ -1,6 +1,6 @@
 using AutoMapper;
 using IdentityServer.Domain.Dtos;
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using IdentityServer.Domain.Exceptions;
 using IdentityServer.Infrastructure.JwtConfiguration;
 using IdentityServer.Infrastructure.Repositories.Interfaces;
@@ -25,7 +25,7 @@ public class AuthService : IAuthService
         _logger = logger;
     }
 
-    public async Task Add(UserDto request)
+    public async Task Add(UserRegisterDto request)
     {
         if (request.Username is null || request.Password is null)
         {
@@ -38,10 +38,11 @@ public class AuthService : IAuthService
             throw new NotFoundException("Username already exists.");
         }
         var entityFromDb = _mapper.Map<User>(request);
+        entityFromDb.SetRoleId(1);
         entityFromDb.CreatePasswordHash(request.Password);
-        await _authRepository.Create(entityFromDb);
+        await _authRepository.CreateUser(entityFromDb);
     }
-    public async Task<string> Login(UserDto request)
+    public async Task<string> Login(UserLoginDto request)
     {
         if (request.Username is null || request.Password is null)
         {
@@ -59,7 +60,7 @@ public class AuthService : IAuthService
         return tokenHandler.CreateToken(entityFromDb);
     }
 
-    public async Task Update(long id, UserDto request)
+    public async Task Update(long id, UserDetailsDto request)
     {
         if (request.Username is null || request.Password is null)
         {
@@ -85,10 +86,10 @@ public class AuthService : IAuthService
         await _authRepository.Delete(await SearchForExistingId(id));
     }
 
-    public async Task<IEnumerable<UserDto>> GetAll()
+    public async Task<IEnumerable<UserListDto>> GetAll()
     {
         var entities = await _authRepository.FindAll();
-        var mappedEntity = _mapper.Map<IEnumerable<UserDto>>(entities);
+        var mappedEntity = _mapper.Map<IEnumerable<UserListDto>>(entities);
         if (entities == null)
         {
             _logger.LogInformation("No data found");
@@ -97,11 +98,11 @@ public class AuthService : IAuthService
         return mappedEntity;
     }
 
-    public async Task<UserDto> GetById(long id)
+    public async Task<UserDetailsDto> GetById(long id)
     {
         var entityFromDb = await SearchForExistingId(id);
 
-        return _mapper.Map<UserDto>(entityFromDb);
+        return _mapper.Map<UserDetailsDto>(entityFromDb);
     }
 
     private async Task<User> SearchForExistingId(long id)

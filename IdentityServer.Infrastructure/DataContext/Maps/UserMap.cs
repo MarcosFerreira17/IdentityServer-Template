@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -17,6 +13,9 @@ public class UserMap : IEntityTypeConfiguration<User>
         builder.Property(p => p.PasswordHash).IsRequired();
         builder.Property(p => p.PasswordSalt).IsRequired();
         builder.Property(p => p.Username).IsRequired();
-        builder.HasMany(p => p.UserRoles).WithOne(p => p.User).HasForeignKey(p => p.UserId);
+        builder.Property(p => p.Email);
+        builder.Property(p => p.FirstName);
+        builder.Property(p => p.LastName);
+        builder.HasOne(p => p.Role);
     }
 }

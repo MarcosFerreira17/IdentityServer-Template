@@ -1,7 +1,8 @@
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 
 namespace IdentityServer.Infrastructure.Repositories.Interfaces;
 public interface IAuthRepository : IBaseRepository<User>
 {
-    Task<UserRole> GetRole();
+    Task CreateUser(User entity);
+    Task<Role> GetRole();
 }

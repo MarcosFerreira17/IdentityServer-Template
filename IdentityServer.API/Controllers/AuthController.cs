@@ -20,7 +20,7 @@ public class AuthenticationController : ControllerBase
     [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(string))]
     [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
 
-    public async Task<IActionResult> Register([FromBody] UserDto request)
+    public async Task<IActionResult> Register([FromBody] UserRegisterDto request)
     {
         await _authService.Add(request);
         return Ok("User created successfully.");
@@ -30,7 +30,7 @@ public class AuthenticationController : ControllerBase
     [Produces("application/json")]
     [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(string))]
     [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
-    public async Task<IActionResult> Login([FromBody] UserDto request)
+    public async Task<IActionResult> Login([FromBody] UserLoginDto request)
     {
         var token = await _authService.Login(request);
         return Ok(token);

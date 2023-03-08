@@ -1,4 +1,4 @@
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -12,6 +12,5 @@ public class RoleMap : IEntityTypeConfiguration<Role>
         builder.HasKey(p => p.Id);
         builder.Property(p => p.Description).IsRequired();
         builder.Property(p => p.Name).IsRequired();
-        builder.HasMany(p => p.UserRoles).WithOne(p => p.Role).HasForeignKey(p => p.RoleId);
     }
 }

@@ -1,6 +1,6 @@
 using IdentityServer.Domain.Common;
 
-namespace IdentityServer.Domain.Entities;
+namespace IdentityServer.Domain.Entities.Identity;
 
 public class User : EntityBase<long>
 {
@@ -13,7 +13,8 @@ public class User : EntityBase<long>
     public string Bio { get; private set; }
     public DateTime? Birthdate { get; private set; }
     public string ProfilePictureUrl { get; private set; }
-    public IEnumerable<UserRole> UserRoles { get; private set; }
+    public long RoleId { get; private set; }
+    public Role Role { get; private set; }
     public IEnumerable<Address> Addresses { get; private set; }
 
     public void CreatePasswordHash(string password)
@@ -57,5 +58,12 @@ public class User : EntityBase<long>
         }
 
         CreatePasswordHash(password);
+    }
+    public void SetRoleId(long roleId)
+    {
+        if (roleId <= 0)
+            throw new ArgumentException("Role Id cannot be less than or equal to 0.");
+
+        RoleId = roleId;
     }
 }

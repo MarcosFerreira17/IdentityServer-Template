@@ -1,10 +1,7 @@
-using System.Globalization;
-using System.Net.Mime;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using IdentityServer.Domain.Dtos;
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using IdentityServer.Infrastructure.Repositories.Interfaces;
@@ -27,7 +24,7 @@ public class JwtWebTokenConfiguration
         return new List<Claim>
         {
             new Claim(JwtRegisteredClaimNames.Sub, user.Username),
-            new Claim(ClaimTypes.Role, role.Result.Role.Name),
+            new Claim(ClaimTypes.Role, role.Result.Name),
         };
     }
     public string CreateToken(User user)

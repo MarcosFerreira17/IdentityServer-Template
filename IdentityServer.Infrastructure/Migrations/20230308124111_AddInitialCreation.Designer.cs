@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IdentityServer.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230307191217_AddRoles")]
-    partial class AddRoles
+    [Migration("20230308124111_AddInitialCreation")]
+    partial class AddInitialCreation
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace IdentityServer.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "6.0.14")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Address", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Address", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -58,7 +58,7 @@ namespace IdentityServer.Infrastructure.Migrations
                     b.ToTable("Addresses");
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Role", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Role", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -77,7 +77,7 @@ namespace IdentityServer.Infrastructure.Migrations
                     b.ToTable("Roles", (string)null);
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.User", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.User", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -109,39 +109,23 @@ namespace IdentityServer.Infrastructure.Migrations
                     b.Property<string>("ProfilePictureUrl")
                         .HasColumnType("longtext");
 
+                    b.Property<long>("RoleId")
+                        .HasColumnType("bigint");
+
                     b.Property<string>("Username")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users", (string)null);
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.UserRole", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.Address", b =>
                 {
-                    b.Property<long>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("RoleId")
-                        .HasColumnType("bigint");
-
-                    b.Property<long>("UserId")
-                        .HasColumnType("bigint");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RoleId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("UserRoles");
-                });
-
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Address", b =>
-                {
-                    b.HasOne("IdentityServer.Domain.Entities.User", "User")
+                    b.HasOne("IdentityServer.Domain.Entities.Identity.User", "User")
                         .WithMany("Addresses")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -150,35 +134,20 @@ namespace IdentityServer.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.UserRole", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.User", b =>
                 {
-                    b.HasOne("IdentityServer.Domain.Entities.Role", "Role")
-                        .WithMany("UserRoles")
+                    b.HasOne("IdentityServer.Domain.Entities.Identity.Role", "Role")
+                        .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("IdentityServer.Domain.Entities.User", "User")
-                        .WithMany("UserRoles")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Role");
-
-                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("IdentityServer.Domain.Entities.Role", b =>
-                {
-                    b.Navigation("UserRoles");
-                });
-
-            modelBuilder.Entity("IdentityServer.Domain.Entities.User", b =>
+            modelBuilder.Entity("IdentityServer.Domain.Entities.Identity.User", b =>
                 {
                     b.Navigation("Addresses");
-
-                    b.Navigation("UserRoles");
                 });
 #pragma warning restore 612, 618
         }

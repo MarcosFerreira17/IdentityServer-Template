@@ -1,6 +1,6 @@
 using IdentityServer.Domain.Common;
 
-namespace IdentityServer.Domain.Entities;
+namespace IdentityServer.Domain.Entities.Identity;
 
 public class Role : EntityBase<long>
 {
@@ -9,7 +9,7 @@ public class Role : EntityBase<long>
         Name = name;
         Description = description;
     }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public IEnumerable<UserRole> UserRoles { get; set; }
+    public string Name { get; private set; }
+    public string Description { get; private set; }
+
 }

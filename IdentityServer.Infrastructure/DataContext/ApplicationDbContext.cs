@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using IdentityServer.Infrastructure.DataContext.Maps;
 
 namespace IdentityServer.Infrastructure.DataContext;
@@ -7,7 +7,6 @@ public class ApplicationDbContext : DbContext
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Role> Roles { get; set; }
-    public DbSet<UserRole> UserRoles { get; set; }
     public DbSet<Address> Addresses { get; set; }
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 

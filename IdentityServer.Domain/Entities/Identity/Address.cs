@@ -1,6 +1,6 @@
 using IdentityServer.Domain.Common;
 
-namespace IdentityServer.Domain.Entities;
+namespace IdentityServer.Domain.Entities.Identity;
 
 public class Address : EntityBase<long>
 {

@@ -34,7 +34,7 @@ public class UserController : ControllerBase
     [HttpPut]
     [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(string))]
     [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
-    public async Task<IActionResult> UpdateUser(long id, [FromBody] UserDto request)
+    public async Task<IActionResult> UpdateUser(long id, [FromBody] UserDetailsDto request)
     {
         await _authService.Update(id, request);
         return Ok("User updated successfully.");

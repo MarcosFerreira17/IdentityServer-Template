@@ -1,4 +1,4 @@
-using IdentityServer.Domain.Entities;
+using IdentityServer.Domain.Entities.Identity;
 using IdentityServer.Infrastructure.DataContext;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,15 +7,15 @@ namespace IdentityServer.Infrastructure.Repositories.Interfaces;
 public class AuthRepository : BaseRepository<User, ApplicationDbContext>, IAuthRepository
 {
     public AuthRepository(ApplicationDbContext context) : base(context) { }
-    public override async Task Create(User entity)
+    public async Task CreateUser(User entity)
     {
         await _context.Set<User>().AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
-    public async Task<UserRole> GetRole()
+    public async Task<Role> GetRole()
     {
-        var user = await _context.Set<User>().Include(i => i.UserRoles).ThenInclude(i => i.Role).FirstOrDefaultAsync();
-        return user.UserRoles.FirstOrDefault(x => x.UserId == user.Id);
+        var user = await _context.Set<Role>().FirstOrDefaultAsync();
+        return user;
     }
 }
