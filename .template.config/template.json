@@ -17,8 +17,8 @@
         "Identity"
     ],
     "identity": "Custom.Template.Authentication.WebAPI",
-    "name": "Custom template WebAPI with Authentication JWT Architecture",
-    "description": "",
+    "name": "Custom template WebAPI with Authentication JWT",
+    "description": "Custom template WebAPI with Authentication JWT",
     "shortName": "auth-template",
     "defaultName": "Template",
     "tags": {
@@ -28,18 +28,6 @@
     "sourceName": "IdentityServer",
     "preferNameDirectory": true,
     "symbols": {
-        "EnableSwaggerSupport": {
-            "type": "parameter",
-            "description": "Enables swagger support and configurations file",
-            "datatype": "bool",
-            "defaultValue": "true"
-        },
-        "DockerSupport": {
-            "type": "parameter",
-            "description": "Add dockerfile and docker compose configuration.",
-            "datatype": "bool",
-            "defaultValue": "false"
-        },
         "IncludeSolutionFile": {
             "type": "parameter",
             "description": "Add solution file",
@@ -56,20 +44,6 @@
     "sources": [
         {
             "modifiers": [
-                {
-                    "condition": "(!EnableSwaggerSupport)",
-                    "exclude": [
-                        "/External/Template.Presentation/Configurations/SwaggerConfiguration.cs"
-                    ]
-                },
-                {
-                    "condition": "(!DockerSupport)",
-                    "exclude": [
-                        "/docker-compose.dcproj",
-                        "/docker-compose.override.yml",
-                        "/docker-compose.yml"
-                    ]
-                },
                 {
                     "condition": "(!IncludeSolutionFile)",
                     "exclude": ["/Template.sln"]

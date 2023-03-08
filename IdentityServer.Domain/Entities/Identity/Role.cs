@@ -9,6 +9,8 @@ public class Role : EntityBase<long>
         Name = name;
         Description = description;
     }
+
+    public Role() { }
     public string Name { get; private set; }
     public string Description { get; private set; }
 

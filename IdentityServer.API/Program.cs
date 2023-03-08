@@ -1,7 +1,9 @@
 using System;
 using System.Text;
+using IdentityServer.API.Configurations;
 using IdentityServer.API.DependencyInjection;
 using IdentityServer.API.Middleware;
+using IdentityServer.Infrastructure.DataContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
@@ -51,6 +53,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseMiddleware<ErrorHandlerMiddleware>();
+app.MigrateDatabase<ApplicationDbContext>((context, services) =>
+                {
+                    var logger = services.GetService<ILogger<ApplicationContextSeed>>();
+                    ApplicationContextSeed
+                        .SeedAsync(context, logger)
+                        .Wait();
+                });
 
 app.UseHttpsRedirection();
 

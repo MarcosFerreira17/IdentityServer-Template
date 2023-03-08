@@ -4,6 +4,21 @@ namespace IdentityServer.Domain.Entities.Identity;
 
 public class User : EntityBase<long>
 {
+    public User(string username, string email, string password, string firstName, string lastName, string bio, DateTime? birthdate, string profilePictureUrl, long roleId)
+    {
+        Username = username;
+        Email = email;
+        CreatePasswordHash(password);
+        FirstName = firstName;
+        LastName = lastName;
+        Bio = bio;
+        Birthdate = birthdate;
+        ProfilePictureUrl = profilePictureUrl;
+        RoleId = roleId;
+    }
+
+    public User() { }
+
     public string Username { get; private set; } = string.Empty;
     public string Email { get; private set; }
     public byte[] PasswordHash { get; private set; }
