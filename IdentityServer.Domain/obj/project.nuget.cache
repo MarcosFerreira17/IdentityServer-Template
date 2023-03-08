@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HrmV9d3+2ZFVhiteGm2qoIj1V/g+uEJs00R/+1YjO1fXLYl+fC3ydIxQehOZJdSbYYcVdYgKI85OhaaFfmUEVA==",
+  "dgSpecHash": "wal2l/8HVN7Qys2XZ0Kn2A3Njsia/tjJxLhGzG/ljmo3syHSsqB9VFGcqa9I676Zac5Da5OjT6zt978pd0zVTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+  "projectFilePath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

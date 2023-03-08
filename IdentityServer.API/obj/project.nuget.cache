@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FI5aUk9uyP5IlTuIj3pUvQA/v4Q3jcQ2Gil7W5hzKaqa7wLhuyD9onrdXkSVgkoWEyk2mt9gCWQSa5vmCQVOkg==",
+  "dgSpecHash": "ZM59Sm8Eplvx52mupiCEUhJwj5f6ySUTIUQ1MF1LfWoxTu/cpKh//RemDozRxWswDcj9yAhTOxoAJYYwjmPW5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
+  "projectFilePath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mnia\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mnia\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

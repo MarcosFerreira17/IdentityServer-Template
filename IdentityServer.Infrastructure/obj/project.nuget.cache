@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yk9rNWE0ax4XzWDV+on5QabtWwDIsaM+FaXTC2nXwYcE9DT6cgMelXlm8zKfbvC2m+dpH8CoOLq2iiUTFboYLA==",
+  "dgSpecHash": "0oXMJUCX29Cz6LtBGdEpPKYHNSotMbzaPTl5NpETo8If/qJ1h1QmalIna9aBXcdr5a5czX9q0ZMhuxK1OZhJsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+  "projectFilePath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mnia\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mnia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

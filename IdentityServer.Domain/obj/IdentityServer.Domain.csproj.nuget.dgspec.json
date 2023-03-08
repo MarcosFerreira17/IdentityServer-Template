@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {}
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
         "projectName": "IdentityServer.Domain",
-        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
         "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\obj\\",
+        "outputPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

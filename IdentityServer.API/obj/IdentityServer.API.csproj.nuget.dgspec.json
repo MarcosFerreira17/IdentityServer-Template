@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {}
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
+        "projectUniqueName": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
         "projectName": "IdentityServer.API",
-        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
+        "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\IdentityServer.API.csproj",
         "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\obj\\",
+        "outputPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,11 +29,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
-                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
+              "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+                "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
               },
-              "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj"
+              "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "projectUniqueName": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
         "projectName": "IdentityServer.Domain",
-        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
+        "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj",
         "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\obj\\",
+        "outputPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -154,14 +154,14 @@
         }
       }
     },
-    "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
+    "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
         "projectName": "IdentityServer.Infrastructure",
-        "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
+        "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\IdentityServer.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mnia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -179,8 +179,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
-                "projectPath": "C:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
+              "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj": {
+                "projectPath": "c:\\Users\\mnia\\dev\\personal-projects\\IdentityServer\\IdentityServer.Domain\\IdentityServer.Domain.csproj"
               }
             }
           }
